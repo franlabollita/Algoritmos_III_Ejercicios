@@ -25,3 +25,14 @@ TirionPJ:
 
 PuebloRiverwood:
   - Seria mas que nada para guardar si los PJs son desonocidos o prometedores.
+  
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  Opinion del Pueblo:
+    - To Do: Tener diferentes respuestas segun la opinion de Riverwood sobre el personaje.
+    - Aca se podria usar un objeto PuebloRiverwood. ✓
+      - Tener un diccionario con cada personaje y su opinion, ifAbsent: ['Desconocido']. ✓
+    - Hay que modificar a Trebor para que tenga dos Colecciones de frases, una de 'Desconocida' y una 'Prometedor'.
+    
+  
+  
