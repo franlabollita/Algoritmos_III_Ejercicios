@@ -18,7 +18,7 @@ test01CuandoLaCuranderaInteractuaPorPrimeraVezConUnPersonajeLeRespondeConSuPrime
 	
 	mensaje := self carolinaLaCurandera interactuarCon: self hamilton.
 	
-	Assert that: mensaje isEqualTo: '¿Estás enfermo forastero?'.! !
+	Assert that: mensaje isEqualTo: 'Â¿EstÃ¡s enfermo forastero?'.! !
 
 !PruebasInteracionesConCarolinaLaCurandera class methodsFor: 'interacciones con un personaje' stamp: 'JMB 9/25/2021 12:48:37'!
 test02CuandoLaCuranderaInteractuaPorSegundaVezConUnPersonajeLeRespondeConSuSegundaFrase
@@ -39,28 +39,28 @@ test03CuandoLaCuranderaInteractuaPorTerceraVezConUnPersonajeLeRespondeConSuTerce
 	
 	mensaje := self carolinaLaCurandera interactuarCon: self hamilton.
 	
-	Assert that: mensaje isEqualTo: 'Cuando tengas una aflicción, ven a verme'.! !
+	Assert that: mensaje isEqualTo: 'Cuando tengas una aflicciÃ³n, ven a verme'.! !
 
 
 !PruebasInteracionesConCarolinaLaCurandera class methodsFor: 'interacciones con mas de un personaje' stamp: 'JMB 9/25/2021 12:50:11'!
 test04LaCuranderaMantieneDosInteraccionesConDiferentesPersonajes
 	self olvidarInteraccionesYOpiniones.
 	
-	Assert that: (self carolinaLaCurandera interactuarCon: self hamilton) isEqualTo: '¿Estás enfermo forastero?'.
-	Assert that: (self carolinaLaCurandera interactuarCon: self tirion) isEqualTo: '¿Estás enfermo forastero?'.! !
+	Assert that: (self carolinaLaCurandera interactuarCon: self hamilton) isEqualTo: 'Â¿EstÃ¡s enfermo forastero?'.
+	Assert that: (self carolinaLaCurandera interactuarCon: self tirion) isEqualTo: 'Â¿EstÃ¡s enfermo forastero?'.! !
 
 !PruebasInteracionesConCarolinaLaCurandera class methodsFor: 'interacciones con mas de un personaje' stamp: 'JMB 9/25/2021 12:50:18'!
 test05LaCuranderaMantieneDosInteraccionesCompletasConDiferentesPersonajes
 	self olvidarInteraccionesYOpiniones.
 	
-	Assert that: (self carolinaLaCurandera interactuarCon: self hamilton) isEqualTo: '¿Estás enfermo forastero?'.
+	Assert that: (self carolinaLaCurandera interactuarCon: self hamilton) isEqualTo: 'Â¿EstÃ¡s enfermo forastero?'.
 	
-	Assert that: (self carolinaLaCurandera interactuarCon: self tirion) isEqualTo: '¿Estás enfermo forastero?'.
+	Assert that: (self carolinaLaCurandera interactuarCon: self tirion) isEqualTo: 'Â¿EstÃ¡s enfermo forastero?'.
 	Assert that: (self carolinaLaCurandera interactuarCon: self tirion) isEqualTo: 'Ah, solo quieres conversar'.
-	Assert that: (self carolinaLaCurandera interactuarCon: self tirion) isEqualTo: 'Cuando tengas una aflicción, ven a verme'.
+	Assert that: (self carolinaLaCurandera interactuarCon: self tirion) isEqualTo: 'Cuando tengas una aflicciÃ³n, ven a verme'.
 	
 	Assert that: (self carolinaLaCurandera interactuarCon: self hamilton) isEqualTo: 'Ah, solo quieres conversar'.
-	Assert that: (self carolinaLaCurandera interactuarCon: self hamilton) isEqualTo: 'Cuando tengas una aflicción, ven a verme'.
+	Assert that: (self carolinaLaCurandera interactuarCon: self hamilton) isEqualTo: 'Cuando tengas una aflicciÃ³n, ven a verme'.
 	! !
 
 
@@ -84,7 +84,7 @@ test07CuandoLaCuranderaInteractuaPorSegundaVezConUnPersonajeCalificadoPorElPuebl
 	
 	mensaje := self carolinaLaCurandera interactuarCon: self hamilton.
 	
-	Assert that: mensaje isEqualTo: 'Toma esta pócima que te hará crecer el pelo. Y cuando tengas una aflicción, ven a verme'.
+	Assert that: mensaje isEqualTo: 'Toma esta pÃ³cima que te harÃ¡ crecer el pelo. Y cuando tengas una aflicciÃ³n, ven a verme'.
 ! !
 
 
@@ -120,15 +120,15 @@ test10CuandoLaCuranderaCambiaLaOpinionDelPuebloSobreElPersonajeAPrometedorReinic
 
 !PruebasInteracionesConCarolinaLaCurandera class methodsFor: 'personajes' stamp: 'JMB 9/25/2021 12:41:48'!
 carolinaLaCurandera
-	Assert isTrue: false description: 'Reemplazar esto por la implementación correspondiente'.! !
+	Assert isTrue: false description: 'Reemplazar esto por la implementaciÃ³n correspondiente'.! !
 
 !PruebasInteracionesConCarolinaLaCurandera class methodsFor: 'personajes' stamp: 'JMB 9/22/2021 00:09:00'!
 hamilton
-	Assert isTrue: false description: 'Reemplazar esto por la implementación correspondiente'.! !
+	Assert isTrue: false description: 'Reemplazar esto por la implementaciÃ³n correspondiente'.! !
 
 !PruebasInteracionesConCarolinaLaCurandera class methodsFor: 'personajes' stamp: 'JMB 9/22/2021 00:09:16'!
 tirion
-	Assert isTrue: false description: 'Reemplazar esto por la implementación correspondiente'.! !
+	Assert isTrue: false description: 'Reemplazar esto por la implementaciÃ³n correspondiente'.! !
 
 !PruebasInteracionesConCarolinaLaCurandera class methodsFor: 'personajes' stamp: 'FL 9/27/2021 21:18:04'!
 treborElGuardia
@@ -137,7 +137,7 @@ treborElGuardia
 
 !PruebasInteracionesConCarolinaLaCurandera class methodsFor: 'opiniones e interacciones' stamp: 'JMB 9/22/2021 00:09:33'!
 esVistoPorElPuebloComoPrometedor: unPersonaje
-	Assert isTrue: false description: 'Reemplazar esto por la implementación correspondiente'.! !
+	Assert isTrue: false description: 'Reemplazar esto por la implementaciÃ³n correspondiente'.! !
 
 !PruebasInteracionesConCarolinaLaCurandera class methodsFor: 'opiniones e interacciones' stamp: 'JMB 9/21/2021 21:01:46'!
 hacerQueLaCuranderaOlvideSusInteracciones
@@ -149,7 +149,7 @@ hacerQueRiverwoodOlvideTodasSusCalificaciones
 
 !PruebasInteracionesConCarolinaLaCurandera class methodsFor: 'opiniones e interacciones' stamp: 'JMB 9/22/2021 00:09:48'!
 hacerQueRiverwoodVeaPrometedorAHamilton
-	Assert isTrue: false description: 'Reemplazar esto por la implementación correspondiente'.! !
+	Assert isTrue: false description: 'Reemplazar esto por la implementaciÃ³n correspondiente'.! !
 
 !PruebasInteracionesConCarolinaLaCurandera class methodsFor: 'opiniones e interacciones' stamp: 'JMB 9/25/2021 12:48:36'!
 olvidarInteraccionesYOpiniones
@@ -189,7 +189,7 @@ test02CuandoElGuardiaInteractuaPorSegundaVezConUnPersonajeLeRespondeConSuSegunda
 	
 	mensaje := self treborElGuardia interactuarCon: self hamilton.
 	
-	Assert that: mensaje isEqualTo: '¿Todo bien?'.! !
+	Assert that: mensaje isEqualTo: 'Â¿Todo bien?'.! !
 
 !PruebasInteracionesConTreborElGuardia class methodsFor: 'interacciones con un personaje' stamp: 'JMB 9/25/2021 13:04:25'!
 test03CuandoElGuardiaOlvidaInteraccionesPreviasConUnPersonajeAlVolverAInteractuarLeRespondeConSuPrimerFrase
@@ -211,7 +211,7 @@ test04CuandoElGuardiaInteractuaPorTerceraVezConUnPersonajeLeRespondeConSuTercerF
 	
 	mensaje := self treborElGuardia interactuarCon: self hamilton.
 	
-	Assert that: mensaje isEqualTo: '¿Algún problema?'.! !
+	Assert that: mensaje isEqualTo: 'Â¿AlgÃºn problema?'.! !
 
 !PruebasInteracionesConTreborElGuardia class methodsFor: 'interacciones con un personaje' stamp: 'JMB 9/25/2021 13:04:44'!
 test05CuandoElGuardiaInterctuaYTerminoSuRepertorioDeFrasesConUnPersonajeLeRespondeConSuUltimaFrase
@@ -223,7 +223,7 @@ test05CuandoElGuardiaInterctuaYTerminoSuRepertorioDeFrasesConUnPersonajeLeRespon
 	
 	mensaje := self treborElGuardia interactuarCon: self hamilton.
 	
-	Assert that: mensaje isEqualTo: '¿Algún problema?'.! !
+	Assert that: mensaje isEqualTo: 'Â¿AlgÃºn problema?'.! !
 
 
 !PruebasInteracionesConTreborElGuardia class methodsFor: 'interacciones con mas de un personaje' stamp: 'JMB 9/25/2021 12:53:36'!
@@ -240,11 +240,11 @@ test07ElGuardiaMantieneDosInteraccionesCompletasConDiferentesPersonajes
 	Assert that: (self treborElGuardia interactuarCon: self hamilton) isEqualTo: 'Hola forastero'.
 	
 	Assert that: (self treborElGuardia interactuarCon: self tirion) isEqualTo: 'Hola forastero'.
-	Assert that: (self treborElGuardia interactuarCon: self tirion) isEqualTo: '¿Todo bien?'.
-	Assert that: (self treborElGuardia interactuarCon: self tirion) isEqualTo: '¿Algún problema?'.
+	Assert that: (self treborElGuardia interactuarCon: self tirion) isEqualTo: 'Â¿Todo bien?'.
+	Assert that: (self treborElGuardia interactuarCon: self tirion) isEqualTo: 'Â¿AlgÃºn problema?'.
 	
-	Assert that: (self treborElGuardia interactuarCon: self hamilton) isEqualTo: '¿Todo bien?'.
-	Assert that: (self treborElGuardia interactuarCon: self hamilton) isEqualTo: '¿Algún problema?'.
+	Assert that: (self treborElGuardia interactuarCon: self hamilton) isEqualTo: 'Â¿Todo bien?'.
+	Assert that: (self treborElGuardia interactuarCon: self hamilton) isEqualTo: 'Â¿AlgÃºn problema?'.
 	! !
 
 
@@ -295,7 +295,7 @@ hacerQueRiverwoodOlvideTodasSusCalificaciones
 
 !PruebasInteracionesConTreborElGuardia class methodsFor: 'opiniones e interacciones' stamp: 'JMB 9/22/2021 00:06:53'!
 hacerQueRiverwoodVeaPrometedorAHamilton
-	Assert isTrue: false description: 'Reemplazar esto por la implementación correspondiente'.! !
+	Assert isTrue: false description: 'Reemplazar esto por la implementaciÃ³n correspondiente'.! !
 
 !PruebasInteracionesConTreborElGuardia class methodsFor: 'opiniones e interacciones' stamp: 'JMB 9/25/2021 12:52:12'!
 olvidarInteraccionesYOpiniones
@@ -344,7 +344,7 @@ responderSegunCantidadDeInteraccionesCon: unPersonajeJugadorAInteractuar
 initializeCollaboratorsFromFile
 	"Auto generated method for loading purposes - Do not modify it"
 
-	frases := #('Hola forastero' '¿Todo bien?' '¿Algún problema?' ).
+	frases := #('Hola forastero' 'Â¿Todo bien?' 'Â¿AlgÃºn problema?' ).
 	cantidadDeInteraccionesConUnPersonaje := ((Dictionary new) add: (#Hamilton->3); add: (#Tirion->3); yourself).! !
 
 TreborElGuardiaDeSkyrimNPC initializeAfterFileIn!
